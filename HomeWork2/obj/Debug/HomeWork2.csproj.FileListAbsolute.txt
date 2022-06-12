@@ -1,0 +1,11 @@
+O:\Обучение\repos\HomeWork\HomeWork2\bin\Debug\HomeWork2.exe.config
+O:\Обучение\repos\HomeWork\HomeWork2\bin\Debug\HomeWork2.exe
+O:\Обучение\repos\HomeWork\HomeWork2\bin\Debug\HomeWork2.pdb
+O:\Обучение\repos\HomeWork\HomeWork2\bin\Debug\Igor.Base.dll
+O:\Обучение\repos\HomeWork\HomeWork2\bin\Debug\Igor.Base.pdb
+O:\Обучение\repos\HomeWork\HomeWork2\obj\Debug\HomeWork2.csproj.AssemblyReference.cache
+O:\Обучение\repos\HomeWork\HomeWork2\obj\Debug\HomeWork2.csproj.SuggestedBindingRedirects.cache
+O:\Обучение\repos\HomeWork\HomeWork2\obj\Debug\HomeWork2.csproj.CoreCompileInputs.cache
+O:\Обучение\repos\HomeWork\HomeWork2\obj\Debug\HomeWork2.csproj.CopyComplete
+O:\Обучение\repos\HomeWork\HomeWork2\obj\Debug\HomeWork2.exe
+O:\Обучение\repos\HomeWork\HomeWork2\obj\Debug\HomeWork2.pdb

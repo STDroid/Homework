@@ -1,0 +1,6 @@
+O:\Обучение\repos\Homework\Igor.Base\bin\Debug\Igor.Base.dll
+O:\Обучение\repos\Homework\Igor.Base\bin\Debug\Igor.Base.pdb
+O:\Обучение\repos\Homework\Igor.Base\obj\Debug\Igor.Base.csproj.AssemblyReference.cache
+O:\Обучение\repos\Homework\Igor.Base\obj\Debug\Igor.Base.csproj.CoreCompileInputs.cache
+O:\Обучение\repos\Homework\Igor.Base\obj\Debug\Igor.Base.dll
+O:\Обучение\repos\Homework\Igor.Base\obj\Debug\Igor.Base.pdb

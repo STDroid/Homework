@@ -3,43 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Igor.Base;      // простарство имен BaseMethods.
 
-namespace Homework1
+namespace HomeWork1
 {
     internal class Program
     {
-        static void Pause()   //Домашнее задание по созданию методов (6 задача)
-        {
-            Console.ReadLine();
-        }
-        static void Print(string ms,int x, int y) //Домашнее задание по созданию методов (6 задача)
-        {
-            Console.SetCursorPosition(x, y);
-            Console.WriteLine(ms);
-        }
-        static double length(double x1, double x2, double y1, double y2)
-        {
-            double result = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
-            Console.WriteLine($"Расстояние между точками: {result:F2}");
-            return result;
-
-        }
-
-
+        
         static void Main(string[] args)
         {
-            task1();
-            task2();
-            task3a();
-            task3b();
-            task4a();
-            task4b();
-            task5a();
-            task5b();
-            task5c();
+            BaseMethods.PrintInfo(1);
+            Task1();
+            Task2();
+            Task3a();
+            Task3b();
+            Task4a();
+            Task4b();
+            Task5a();
+            Task5b();
+            Task5c();
 
         }
-        static void task1()
+        static void Task1()
            {
             Console.WriteLine("Введите ваше имя");
             string FirstName = Console.ReadLine();
@@ -54,9 +39,9 @@ namespace Homework1
             Console.WriteLine(FirstName + " " + surname + " " + age + " " + heigth + " " + weight); //вывод данных методом склеивания задача 1а
             Console.WriteLine("{0} {1} {2} {3} {4}", FirstName, surname, age, heigth, weight); //вывод данных методом форматирования задача 1б
             Console.WriteLine($"{FirstName} {surname} {age} {heigth} {weight}"); //вывод данных методом форматирования задача 1в
-            Pause();
+            BaseMethods.Pause();
         }
-        static void task2() //Задача на расчет индекса массы тела
+        static void Task2() //Задача на расчет индекса массы тела
         {
             Console.WriteLine("Введите ваш рост в метрах");
             string heigth = Console.ReadLine();
@@ -68,9 +53,9 @@ namespace Homework1
             weightDB = double.Parse(weight);
             double indexM = weightDB / (heigthDB * heigthDB);
             Console.WriteLine($"Ваш индекс массы тела: {indexM:F2}");
-            Pause();
+            BaseMethods.Pause();
         }
-        static void task3a()
+        static void Task3a()
         {
             double x1;
             double y1;
@@ -87,10 +72,10 @@ namespace Homework1
             y2 = double.Parse(Console.ReadLine());
             result = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
             Console.WriteLine($"Расстояние между точками: {result:F2}");
-            Pause();
+            BaseMethods.Pause();
 
         }
-        static void task3b()
+        static void Task3b()
         {
             double x1;
             double y1;
@@ -104,46 +89,46 @@ namespace Homework1
             x2 = double.Parse(Console.ReadLine());
             Console.Write("введите y2: ");
             y2 = double.Parse(Console.ReadLine());
-            length(x1,x2,y1,y2);
-            Pause();
+            BaseMethods.length(x1,x2,y1,y2);
+            BaseMethods.Pause();
 
         }
 
-        static void task4a()
+        static void Task4a()
         {
-            double firsnumber = 15;
-            double secondnumber = 25;
-            double rezerv = firsnumber;
-            firsnumber = secondnumber;
-            secondnumber = rezerv;
+            double firsNumber = 15;
+            double secondNumber = 25;
+            double rezerv = firsNumber;
+            firsNumber = secondNumber;
+            secondNumber = rezerv;
         }
-        static void task4b()
+        static void Task4b()
         {
-            double firsnumber = 15;
-            double secondnumber = 25;
-            firsnumber=firsnumber+secondnumber;
-            secondnumber=firsnumber-secondnumber;
-            firsnumber=firsnumber-secondnumber;
+            double firsNumber = 15;
+            double secondNumber = 25;
+            firsNumber=firsNumber+secondNumber;
+            secondNumber=firsNumber-secondNumber;
+            firsNumber=firsNumber-secondNumber;
         }
-        static void task5a()
+        static void Task5a()
         {
             Console.WriteLine("Шилов Игорь Пермь");
-            Pause();
+            BaseMethods.Pause();
         }
-        static void task5b()
+        static void Task5b()
         {
             Console.SetCursorPosition(Console.WindowWidth / 2, Console.WindowHeight / 2);
             Console.WriteLine("Шилов Игорь Пермь");
-            Pause();
+            BaseMethods.Pause();
         }
-        static void task5c()
+        static void Task5c()
         {
             
             int x = 10;
             int y = 12;
             string ms = "Шилов Игорь Пермь";
-            Print(ms,x,y);
-            Pause();
+            BaseMethods.Print(ms,x,y);
+            BaseMethods.Pause();
         }
         }
 }

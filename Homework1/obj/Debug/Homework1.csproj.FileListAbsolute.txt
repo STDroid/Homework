@@ -1,0 +1,11 @@
+O:\Обучение\repos\HomeWork\Homework1\obj\Debug\Homework1.csproj.AssemblyReference.cache
+O:\Обучение\repos\HomeWork\Homework1\obj\Debug\Homework1.csproj.SuggestedBindingRedirects.cache
+O:\Обучение\repos\HomeWork\Homework1\obj\Debug\Homework1.csproj.CoreCompileInputs.cache
+O:\Обучение\repos\HomeWork\Homework1\bin\Debug\Homework1.exe.config
+O:\Обучение\repos\HomeWork\Homework1\bin\Debug\Homework1.exe
+O:\Обучение\repos\HomeWork\Homework1\bin\Debug\Homework1.pdb
+O:\Обучение\repos\HomeWork\Homework1\obj\Debug\Homework1.exe
+O:\Обучение\repos\HomeWork\Homework1\obj\Debug\Homework1.pdb
+O:\Обучение\repos\HomeWork\Homework1\bin\Debug\Igor.Base.dll
+O:\Обучение\repos\HomeWork\Homework1\bin\Debug\Igor.Base.pdb
+O:\Обучение\repos\HomeWork\Homework1\obj\Debug\Homework1.csproj.CopyComplete
